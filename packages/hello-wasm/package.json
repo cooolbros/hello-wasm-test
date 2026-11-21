@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"postinstall": "wasm-pack build"
+	},
+	"publishConfig": {
+		"directory": "pkg",
+		"linkDirectory": true
+	}
+}
