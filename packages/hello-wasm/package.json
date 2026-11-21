@@ -4,7 +4,6 @@
 		"postinstall": "wasm-pack build"
 	},
 	"publishConfig": {
-		"directory": "pkg",
-		"linkDirectory": true
+		"directory": "pkg"
 	}
 }
